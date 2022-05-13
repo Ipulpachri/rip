@@ -66,7 +66,7 @@ success('2' ,'[■■■■■■■■■■■■■■■] Connected')
 setTimeout( () => {
 console.log(color(`\nSucces login to whatsapp web\n`, 'yellow'))
 console.log(color(`================================================`, 'red'))
-console.log(color(`[ ☭ ]        Made With Creator BotWea      [ ☭ ]` ,'yellow'))
+console.log(color(`[ ☭ ]        Made With Creator Fachri      [ ☭ ]` ,'yellow'))
 console.log(color(`================================================`, 'red'))
 console.log(color(`[•]`, 'yellow'), color(`Creator : ${setting.ownername}`, 'green'))
 console.log(color(`[•]`, 'yellow'), color(`Number : ${setting.ownerNumber} `, 'green'))
@@ -222,8 +222,8 @@ teks = `
 │
 ├⊙ Group : ${mdata.subject}	
 ├⊙ Number : ${num.replace('@s.whatsapp.net', '')}
-├⊙ User : wa.me/${num.split('@')[0]}
-└⊙ Bio : ${p3}
+├ ➵͜͡✪ User : wa.me/${num.split('@')[0]}
+└ ➵͜͡✪ Bio : ${p3}
 
 ⊙ You do not believe, please see for yourself.
 `
@@ -319,10 +319,10 @@ const type = Object.keys(m.message)[0]
 root.sendMessage(m.key.remoteJid, `
 ⊙─❲ ANTI DELETE TERDETEKSI ❳
 │
-├⊙ Name : @${m.participant.split("@")[0]}
-├⊙ Day : ${week} ${calender}
-├⊙ Time :  ${jam}
-└⊙ Type : ${type}
+├ ➵͜͡✪ Name : @${m.participant.split("@")[0]}
+├ ➵͜͡✪ Day : ${week} ${calender}
+├ ➵͜͡✪ Time :  ${jam}
+└ ➵͜͡✪ Type : ${type}
 
 `, MessageType.text, {quoted: m.message, contextInfo: {"mentionedJid": [m.participant]}})
 root.copyNForward(m.key.remoteJid, m.message)
