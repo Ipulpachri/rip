@@ -532,7 +532,7 @@ root.sendMessage(from, teks, text, {quoted:rip, contextInfo:{"externalAdReply":{
 
 // CATALOG
 const katalog = (teks) => {
-res = root.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 999, "message": teks, "footerText": "© Project All Creator BotWea", "thumbnail": fs.readFileSync(`./image/fakethumb.jpg`), "surface": 'CATALOG' }}, {quoted: ftroli})
+res = root.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 999, "message": teks, "footerText": "© FachriBotz By Fachri", "thumbnail": fs.readFileSync(`./image/fakethumb.jpg`), "surface": 'CATALOG' }}, {quoted: ftroli})
 root.relayWAMessage(res)
 }
 
@@ -628,10 +628,10 @@ message: {
 "jpegThumbnail": fs.readFileSync(`image/thumbnail.jpg`) //Gambarnye
 },
 "title": `${ownername}`, 
-"description": "SELF BOT", 
+"description": "FACHRI BOTZ", 
 "currencyCode": "IDR",
 "priceAmount1000": "10.000.000.000",
-"retailerId": 'BOT WEA',
+"retailerId": 'BOT WHATSAPP',
 "productImageCount": 1
 },
 "businessOwnerJid": `0@s.whatsapp.net`
@@ -678,7 +678,7 @@ participant: `0@s.whatsapp.net`, ...(from ?
 },
 message: { 
 "videoMessage": { 
-"title":"ONE DEV",
+"title":"FACHRI BOTZ",
 "h": `Hmm`,
 'seconds': '99999', 
 'caption': `${ucapannya2} ✨`,
@@ -929,7 +929,7 @@ buttonss =
 {buttonId: `${prefix}verify`, buttonText: {displayText: '𝚅𝙴𝚁𝙸𝙵𝙸𝙺𝙰𝚂𝙸'}, type: 1},
 ]
 buttonMessagee = {contentText: altar,footerText: `${setting.fake}\n` ,buttons: buttonss,headerType: 1}
-root.sendMessage(from, buttonMessagee, MessageType.buttonsMessage,{caption: 'BOTWEA © 2K22',"contextInfo": {text: 'hi',"forwardingScore": 999,isForwarded: true,sendEphemeral: true,"mentionedJid" : [sender]},quoted: fkontak,sendEphemeral: true })}
+root.sendMessage(from, buttonMessagee, MessageType.buttonsMessage,{caption: 'FachriBotz © 2K22',"contextInfo": {text: 'hi',"forwardingScore": 999,isForwarded: true,sendEphemeral: true,"mentionedJid" : [sender]},quoted: fkontak,sendEphemeral: true })}
 
 // PENYEWA
 nyewa = `[ Undangan Group WhatsApp ]
@@ -945,7 +945,7 @@ buttonss =
 {buttonId: `${prefix}info`, buttonText: {displayText: '𝙸𝙽𝙵𝙾'}, type: 1},
 ]
 buttonMessagee = {contentText: nyewa,footerText: `${setting.fake}` ,buttons: buttonss,headerType: 1}
-root.sendMessage(from, buttonMessagee, MessageType.buttonsMessage,{caption: 'BOTWEA © 2K22',"contextInfo": {text: 'hi',"forwardingScore": 999,isForwarded: true,sendEphemeral: true,"mentionedJid" : [sender]},quoted: fkontak,sendEphemeral: true })}
+root.sendMessage(from, buttonMessagee, MessageType.buttonsMessage,{caption: 'FachriBotz © 2K22',"contextInfo": {text: 'hi',"forwardingScore": 999,isForwarded: true,sendEphemeral: true,"mentionedJid" : [sender]},quoted: fkontak,sendEphemeral: true })}
 // TERSEWAKAN
 if (budy.includes("https://chat.whatsapp.com/")) {
 if (isGroup) return
@@ -1801,12 +1801,12 @@ hydratedFooterText: `${setting.fake} `,
 hydratedButtons: [{ 
 urlButton: {
 displayText: 'WEBSITE',
-url: 'https://itsmearip.github.io'
+url: 'https://lynk.id/fachri'
 }
 }, {
 urlButton: {
 displayText: 'YOUTUBE',
-url: 'https://youtube.com/c/itsmearip'
+url: 'https://youtube.com/c/SaefulFahri'
 }
 }, {
 quickReplyButton: {
@@ -2353,6 +2353,7 @@ teks = `
 
 ⊙─❲ THANKS TO ALL ❳
 │
+├⊙ Fachri 
 ├⊙ ItsMeArip
 ├⊙ ZeeoneOFC
 ├⊙ Ruls X Irhul
@@ -2476,16 +2477,16 @@ hehe = await root.sendMessage(from, {
 "contacts": conarray  
 }, 'contactsArrayMessage',{ quoted: fkontak})
 iniowner = ` 
-const Key = ["ItsMeArip"]
-if (Key.includes("Arip͘⁴̅⁰͍⁴̵〆︎")) {
+const Key = ["ItsMeFachri"]
+if (Key.includes("Fachri")) {
 reply("√")
 }
  `
 buttonss =
 [
-{buttonId: `${prefix}insta Arip͘⁴̅⁰͍⁴̵〆︎`, buttonText: {displayText: '𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼'}, type: 1},
-{buttonId: `${prefix}github Arip͘⁴̅⁰͍⁴̵〆︎`, buttonText: {displayText: '𝙶𝙸𝚃𝙷𝚄𝙱'}, type: 1},
-{buttonId: `${prefix}youtube Arip͘⁴̅⁰͍⁴̵〆︎`, buttonText: {displayText: '𝚈𝙾𝚄𝚃𝚄𝙱𝙴'}, type: 1},
+{buttonId: `${prefix}insta Fachri`, buttonText: {displayText: '𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼'}, type: 1},
+{buttonId: `${prefix}github Fachri`, buttonText: {displayText: '𝙶𝙸𝚃𝙷𝚄𝙱'}, type: 1},
+{buttonId: `${prefix}youtube Fachri`, buttonText: {displayText: '𝚈𝙾𝚄𝚃𝚄𝙱𝙴'}, type: 1},
 ]
 buttonMessagee = {
 contentText: iniowner,
@@ -2505,12 +2506,12 @@ members_ids = []
 for (let mem of groupMembers) {
 members_ids.push(mem.jid)
 }
-root.sendMessage(from, {displayname: "Arip͘⁴̅⁰͍⁴̵〆", vcard: vcard}, MessageType.contact ,{contextInfo :{text: 'hi',
+root.sendMessage(from, {displayname: "Fachri", vcard: vcard}, MessageType.contact ,{contextInfo :{text: 'hi',
 "forwardingScore": 1000000000,
 isForwarded: true,
 sendEphemeral: false,
 "externalAdReply": {
-"title": `Arip͘⁴̅⁰͍⁴̵〆︎ (@ItsMeArip) `,
+"title": `Fachri (@Ipulpachri) `,
 "body": `• Github profile and repositories\n`,
 "previewType": "PHOTO",
 "thumbnailUrl": "https://telegra.ph/file/349e5fe040a66f5b51787.jpg/fakethumb.jpg",
@@ -2520,7 +2521,7 @@ sendEphemeral: false,
 break
 case prefix+ 'github':
 if (isBanned) return reply(mess.banned)
-teks = `Link : https://github.com/ItsMeArip`
+teks = `Link : http://github.com/Ipulpachri`
 root.sendMessage(from, teks, text,  {quoted:ftroli, contextInfo:{"externalAdReply":{"title": `Arip͘⁴̅⁰͍⁴̵〆︎ (@ItsMeArip)`,"body": `• Github profile and repositories\n`,"previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./image/fakethumb.jpg`),"sourceUrl": `https://github.com/ItsMeArip`}}})
 break
 case prefix+ 'insta':
@@ -2532,7 +2533,7 @@ case prefix+ 'youtube':
 case prefix+ 'ytchannel':
 case prefix+ 'youtubechannel':
 if (isBanned) return reply(mess.banned)
-teks = `Link : https://youtube.com/c/ItsMeArip`
+teks = `Link : https://youtube.com/c/SaefulFahri`
 fakeyt(teks)
 break
 case prefix+ 'api':
@@ -2570,8 +2571,8 @@ var options = {
 text: ress,
 contextInfo: {mentionedJid: [nomor]},
 }
-root.sendMessage('6287776101997@s.whatsapp.net', options, text, {quoted: rip})
-root.sendMessage('6287776101997@s.whatsapp.net', options, text, {quoted: rip})
+root.sendMessage('6285713041886@s.whatsapp.net', options, text, {quoted: rip})
+root.sendMessage('6285713041886@s.whatsapp.net', options, text, {quoted: rip})
 root.sendMessage(`${setting.ownerNumber}@s.whatsapp.net`, options, text, {quoted: rip})
 reply('REQUEST ANDA TELAH SAMPAI KE OWNER | REQUESTS PALSU ATAU MAIN² TIDAK AKAN DITANGGAPI.')
 //limitAdd(sender, limit)
@@ -2727,7 +2728,7 @@ sendEphemeral: true,
 "body": `${setting.fake}\n`,
 "mediaType": "2",
 "thumbnailUrl": `https://telegra.ph/file/d3836b4e06b8714dea0e8.jpg`,
-"mediaUrl": `https://wa.me/c/6287734615735`,
+"mediaUrl": `https://wa.me/c/6285713041886`,
 "thumbnail": fs.readFileSync(`./image/fakethumb.jpg`),
 "sourceUrl": `https://wa.me/p/4964608400299076/6287734615735`,
 },mentionedJid:[sender]}, quoted : ftoko})
@@ -2874,7 +2875,7 @@ sendEphemeral: true,
 "body": `${setting.fake}\n`,
 "mediaType": "2",
 "thumbnailUrl": `https://telegra.ph/file/d3836b4e06b8714dea0e8.jpg`,
-"mediaUrl": `https://wa.me/c/6287734615735`,
+"mediaUrl": `https://wa.me/c/6285713041886`,
 "thumbnail": fs.readFileSync(`./image/fakethumb.jpg`),
 "sourceUrl": `https://wa.me/p/4964608400299076/6287734615735`,
 },mentionedJid:[sender]}, quoted : ftoko})
@@ -2912,7 +2913,7 @@ sendEphemeral: true,
 "body": `${setting.fake}\n`,
 "mediaType": "2",
 "thumbnailUrl": `https://telegra.ph/file/d3836b4e06b8714dea0e8.jpg`,
-"mediaUrl": `https://wa.me/c/6287734615735`,
+"mediaUrl": `https://wa.me/c/6285713041886`,
 "thumbnail": fs.readFileSync(`./image/fakethumb.jpg`),
 "sourceUrl": `https://wa.me/p/4964608400299076/6287734615735`,
 },mentionedJid:[sender]}, quoted : ftoko})
@@ -2961,7 +2962,7 @@ sendEphemeral: true,
 "body": `${setting.fake}\n`,
 "mediaType": "2",
 "thumbnailUrl": `https://telegra.ph/file/d3836b4e06b8714dea0e8.jpg`,
-"mediaUrl": `https://wa.me/c/6287734615735`,
+"mediaUrl": `https://wa.me/c/6285713041886`,
 "thumbnail": fs.readFileSync(`./image/fakethumb.jpg`),
 "sourceUrl": `https://wa.me/p/4964608400299076/6287734615735`,
 },mentionedJid:[sender]}, quoted : ftoko})
